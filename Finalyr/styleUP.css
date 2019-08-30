@@ -1,0 +1,272 @@
+body
+{
+    font-family: Trebuchet MS;
+    background-image: url("");
+    background-repeat:no-repeat;
+	background-size:90%;
+    padding-left:0px;
+    margin: 0px;
+    font-size: small;
+    background-repeat: no-repeat;
+    background-color: ;
+    page-break-before: auto;
+    background-position: 160px 235px;
+    border:0px;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+   -moz-transform: scale(0.75);
+}
+
+
+#header
+{
+    top: 100px;
+    overflow: hidden;
+    background-color:  ;
+    width: 100%;
+    color: white;
+    border-bottom: medium outset;
+    height: 160px;
+    text-align: center;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    list-style-type: none;
+    float: left;
+
+	
+}
+
+#headerh1
+{ 
+    background-repeat:no-repeat;
+	background-position:absolute;
+	text-transform: ThreeDShadow;
+	margin-top: 14px;
+	font-size:36px;
+	font-family:;
+	font-weight:normal;
+	float: left;
+	vertical-align: text-bottom;
+	color: #000;
+}
+
+#headerh4
+{   
+	float: right;
+	padding-left: 24px;
+	margin: 120px 10px 55px 25px;
+	width: 250px;
+	font-size: 15px;
+	font-family: "Bradley Hand ITC";
+	color:#000;
+}
+
+#navbar{
+	width:90%;
+	height:10px;
+	background: #009a8a;
+	color:#000;
+	font-weight:normal;
+    font-size: 20px;
+	padding-top:20px;
+	border-radius: 46px;
+	padding-bottom:50px;
+	padding-left:90px;
+	padding-right:-140px;
+	float:left:
+}
+#linkref{
+	color:white;
+	text-decoration:none;
+	padding:15px;
+	font-size:20px;
+}
+#linkref:hover{
+	background-color: #ffffff;
+	color:#009a8a ;
+	border-radius:16px;
+
+}
+#header{
+    background-image: url(images/under.png);
+}
+
+.w3-container{
+    margin-top: 16px;
+
+    
+   
+}
+.w3-card-4{
+width:100%;
+height:500px;
+margin-top:16px;
+}
+.w3-container color{
+	color:blue;
+}
+.col-xs-3{
+    margin-top: 6px;
+    box-shadow: 0px 0px 1px #000;
+    border-radius:3px;
+
+    
+} 
+#tablist{
+    color: dodgerblue;
+}
+#tablist:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.tab-content{
+    box-shadow: 0px 0px 3px #000;
+    width:800px;
+    margin-left:9px; 
+	height:400px;
+    background-color: white
+    
+}
+.form-group{
+    width: 550px;
+}
+.f1{
+    margin-left:8px;
+    margin-right: 18px;
+}
+.f2{
+    margin-left:8px;
+    margin-right:18px;
+}
+.f3{
+    margin-left:8px;
+    margin-right:18px;
+}
+  
+.col-sm-4{
+    float:right;
+    margin-top:-500px;
+   
+}
+.panel-body{
+	height:460px;
+}
+img {
+  border-radius: 50%;
+}
+.rq {  
+list-style:none;
+color: #FF0000;  
+font-size: 10pt; 
+margin-top:-3px; 
+margin-left:15px;
+}  
+.show-details{
+	font:24px;
+}
+.show{
+	margin-top:-25px;
+	margin-left: 100px;
+	width: 500px;
+}
+.logout{
+	font-size:16px;
+	text-align:center;
+}
+#header{
+    background-image: url(under.png);
+}
+
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+.input-group{
+    width:400px;
+}
+
+.dropbtn {
+	background-color: Transparent;
+    color: white;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+	border-radius:30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}

@@ -1,0 +1,218 @@
+body
+{
+    font-family: Trebuchet MS;
+    background-image: url("");
+    background-repeat:no-repeat;
+	background-size:90%;
+    padding-left:0px;
+    margin: 0px;
+    font-size: small;
+    background-repeat: no-repeat;
+    background-color: ;
+    page-break-before: auto;
+    background-position: 160px 235px;
+    border:0px;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+   -moz-transform: scale(0.75);
+}
+#header
+{
+    top: 100px;
+    overflow: hidden;
+    background-color:  ;
+    width: 100%;
+    color: white;
+    border-bottom: medium outset;
+    height: 160px;
+    text-align: center;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    list-style-type: none;
+    float: left;
+
+	
+}
+
+#headerh1
+{ 
+    background-repeat:no-repeat;
+	background-position:absolute;
+	text-transform: ThreeDShadow;
+	margin-top: 14px;
+	font-size:36px;
+	font-family:;
+	font-weight:normal;
+	float: left;
+	vertical-align: text-bottom;
+	color: #000;
+}
+
+#headerh4
+{   
+	float: right;
+	padding-left: 44px;
+	margin: 120px 10px 55px 25px;
+	width: 250px;
+	font-size: 15px;
+	font-family: "Bradley Hand ITC";
+	color:#000;
+}
+
+#navbar{
+	width:90%;
+	height:10px;
+	background: #009a8a;
+	color:#000;
+	font-weight:normal;
+    font-size: 20px;
+	margin-top:75px;
+	padding-top:20px;
+	border-radius: 46px;
+	padding-bottom:50px;
+	padding-left:90px;
+	padding-right:-140px;
+	float:left:
+}
+#linkref{
+	color:white;
+	text-decoration:none;
+	padding:15px;
+	font-size:20px;
+}
+#linkref:hover{
+	background-color: #ffffff;
+	color:#009a8a ;
+	border-radius:16px;
+
+}
+#header{
+    background-image: url(images/under.png);
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.container {
+  margin-top: 200px;
+    width: 1700px;
+    height:450px;
+  background-color: #4CAF50;
+}
+#map{
+    margin-left: 500px;
+    margin-top: 25px;
+}
+#search {
+    width: 400px;
+  margin: 0 auto;
+  position:absolute;
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#search h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#search input[type="text"] {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#search input[type="text"]:hover{
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+
+#search button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4CAF50;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#search button[type="submit"]:hover {
+  background: #43A047;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#search button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#search input:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}

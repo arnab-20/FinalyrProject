@@ -1,0 +1,406 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+	    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <meta charset="UTF- 8"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="applynow.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet"/>
+        <link href="css/style.css" rel="stylesheet"/>
+		<link rel="shortcut icon" href="images/logo.png" type="image/png">
+        <title> APPLY NOW | FASTeLoan.com</title>         
+    </head>     
+    <body id="myPage" data-spy="scroll" data-target=".navbar"  data-offset="50">
+	   
+        <hr>
+        <hr>
+        <header id="header"> 
+            <h1 id="headerh1" href="#myPage"> F A S T e L o a n</h1> 
+            <h4 id="headerh4" style="font-weight:bold">. . .with you always </h4> 
+            
+            <center>
+                <div id="navbar">
+                    <ul>
+                         <a href="1stpage.html" id="linkref">HOME </a> 
+                         <a href="location.php" id="linkref" >LOCATION </a>
+                         <a href="lender.html" id="linkref" >LENDERS </a>
+                         <a href="1stpage.html#about" id="linkref" >ABOUT US </a>
+                         <a href="faq/index.html" id="linkref" >FAQs </a>	
+                         <a href="1stpage.html#contact" id="linkref" >CONTACT US </a>
+                    </ul>
+                </div>
+            </center>
+                      
+
+                    <!-- Modal -->
+           <!--             <div id="myModal" class="modal fade" role="dialog">
+                       <div class="modal-dialog">-->
+
+                            <!-- Modal content-->
+              <!--              <div class="modal-content" style="color: black">
+                              <div class="modal-header">
+                                  <h4 class="modal-title" style="font-size: 18px;">Verify your Mobile No.</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                
+                              </div>
+                              <div class="modal-body">
+                                <div class="form-group">
+                                            <label for="otp">Enter OTP:</label>
+                                            <input type="text" class="form-control" id="otp" name= "otp" style="font-size: 18px" placeholder="Enter OTP sent to your mobile no">
+                                 </div>
+                                  <button type="submit" name="verifyotp" class="btn btn-success" style="font-size: 18px">Confirm</button>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>-->
+      
+        </header>
+        
+        <div id="form"> 
+        <div class="container-fluid">    
+            <div class ="col-sm-7">
+            <div class="panel panel-primary" style="background-image: url(images/image1.jpg);box-shadow: 5px 5px 5px cornflowerblue;">
+                <div class="panel-heading" style="font-size:20px">Application Form</div>
+                <div class="panel-body" style="background-color: white;opacity: 0.9">
+          		
+                    <div class="container">
+                        <form action="borrowersignup.php" method="post">
+                            <div class="wizards">
+                                <div class="progressbar">
+                                    <div class="progress-line" data-now-value="12.11" data-number-of-steps="5" style="width: 12.11%;"></div> <!-- 19.66% -->
+                                </div>
+                                <div class="form-wizard active">
+                                    <div class="wizard-icon"><i class="fa fa-file-text-o"></i></div>
+                                    <p>License</p>
+                                </div>
+                                <div class="form-wizard">
+                                    <div class="wizard-icon"><i class="fa fa-user"></i></div>
+                                    <p>Add Personal Details</p>
+                                </div>
+                                <div class="form-wizard">
+                                    <div class="wizard-icon"><i class="fa fa-address-book"></i></div>
+                                    <p>Add Contact Details</p>
+                                </div>
+                                <div class="form-wizard">
+                                    <div class="wizard-icon"><i class="fa fa-credit-card-alt"></i></div>
+                                    <p>Add Bank Details</p>
+                                </div>
+                                <div class="form-wizard">
+                                    <div class="wizard-icon"><i class="fa fa-check-circle"></i></div>
+                                    <p>Finish</p>
+                                </div>
+                            </div>
+                            <fieldset>
+                                <iframe src="license.txt"></iframe>
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" value="yes"> I agree with this license
+                                </label>
+                                <div class="wizard-buttons">
+                                    <button type="button" class="btn btn-next"  style="font-size: 16px;font-family: Trebuchet MS;">Next</button>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <h2>Input personal data</h2>
+                                <div class="form-group">
+                                    <label for="Name">Name</label>
+                                    <input type="text" class="form-control" name="Name" id="Name" style="font-size: 18px" placeholder="Enter your  Name">
+									<strong><small>Enter your name(including middle name),exactly as it is listed on your PAN Card or ADHAAR Card</small></strong>
+								</div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="column">
+                                            <label for="dob">Date of Birth</label>
+                                            <input type="date" class="form-control" name="dob" id="age" style="font-size: 18px" placeholder="Enter your Date of Birth">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Gender">Gender</label>
+                                            <select id="Gender" name="Gender">
+                                                <option value="">Select your gender</option>
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                                <option value="other">Don't want to disclose</option>
+                                            </select> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="column">
+                                            <label for="pan">PAN No.</label>
+                                            <input type="text" class="form-control" id="pan" name="pan" style="font-size: 18px" placeholder="Enter your PAN No.">
+                                        </div>
+										<div class="column">
+                                            <label for="aadhar">ADHAAR No.</label>
+                                            <input type="text" class="form-control" id="aadhar" name="aadhar" style="font-size: 18px" placeholder="Enter your PAN No.">
+                                        </div>
+									</div>
+									<div class="row">
+                                        <div class="column">
+                                            <label for="prof">Profession</label>
+                                            <select id="prof" name = "prof">
+                                                <option value="">Select your Profession</option>
+                                                <option value="Student">Student</option>
+                                                <option value="Employee">Employee</option>
+                                                <option value="Serviceman">Serviceman</option>
+                                            </select> 
+                                        </div>
+                                        <div class="column">
+                                            <label for="sal">Salary</label>
+                                            <input type="text" class="form-control" name = "sal" id="sal" style="font-size: 18px" placeholder="Enter your net month salary">/month
+                                            <p>(If you are a student then please enter "NIL")</p>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="form-group">
+                                    <label for="loantype">Type of Loan</label>
+                                    <select id="tol" name="tol">
+                                        <option value="">Select which type of Loan you want to apply for</option>
+                                        <option value="Personal">Personal</option>
+                                        <option value="Car">Car</option>
+                                        <option value="Home">Home</option>
+                                        <option value="Education">Education</option>
+                                        <option value="Others">Others</option>
+                                    </select>
+                                </div>
+								<div class="form-group">
+                                    <label for="lamount">Loan Amount</label>
+                                    <input type="text" class="form-control" name = "lamount" id="lamount" style="font-size: 18px" placeholder="Enter your required loan amount">
+                                </div>
+                                <div class="form-group">
+                                    <label for="purpose">Loan Purpose</label>
+                                    <textarea class="form-control" rows="4" cols="30" id="purpose" name="purpose" style="font-size: 18px" placeholder="*Purpose of applying for this Loan..."></textarea>
+                                </div>
+                                <div class="wizard-buttons">
+                                    <button type="button" class="btn btn-previous"  style="font-size: 16px;font-family: Trebuchet MS;">Previous</button>
+                                    <button type="button" class="btn btn-next"  style="font-size: 16px;font-family: Trebuchet MS;">Next</button>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <h2>Input contact info</h2>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="column">
+                                            <label for="email">E-mail ID</label>
+                                            <input type="email" class="form-control" id="email" name= "email" style="font-size: 18px" placeholder="Enter your E-mail ID">
+                                        </div>
+                                        <div class="column">
+                                            <label for="mob">Mobile No.</label>
+                                            <input type="tel" class="form-control" id="mob" name= "mob" style="font-size: 18px" placeholder="Enter your Mobile No"><br>
+                                          <!--  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="font-weight:normal;">Verify</button>-->
+                                        </div>
+                              
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="add">Address</label>
+                                    <textarea class="form-control" rows="4" cols="50" id="add" name= "address" style="font-size: 18px" placeholder="Enter your address..."></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="column">
+                                            <label for="pin">Pincode</label>
+                                            <input type="text" class="form-control" id="pin" name="pin" style="font-size: 18px" placeholder="Enter Pincode">
+                                        </div>
+										<div class="column">
+                                            <label for="city">City</label>
+                                            <input type="text" class="form-control" id="city" name="city" style="font-size: 18px" placeholder="Enter City">
+                                        </div>
+                                        <div class="column">
+                                            <label for="state">State</label>
+                                            <input type="text" class="form-control" id="state" name ="state" style="font-size: 18px" placeholder="Enter State">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wizard-buttons">
+                                    <button type="button" class="btn btn-previous"  style="font-size: 16px;font-family: Trebuchet MS;">Previous</button>
+                                    <button type="button" class="btn btn-next"  style="font-size: 16px;font-family: Trebuchet MS;">Next</button>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <h2>Input bank details</h2><br>
+								<p style="color: blue"><strong>The interest rate will be 14% if you take loan from us</strong></p>
+                                <div class="form-group">
+                                    <label for="bank">Bank Name</label>
+                                    <input type="text" class="form-control" id="bank" name="bank" style="font-size: 18px" placeholder="Enter Bank name">
+                                </div>
+                                <div class="form-group">
+                                   <div class="row">
+                                           <div class="column">
+                                               <label for="ifsc">IFSC Code</label>
+                                               <input type="text" class="form-control" name="ifsc" id="ifsc" style="font-size: 18px" placeholder="Enter IFSC code">
+                                           </div>
+                                           <div class="column">
+                                               <label for="micr">MICR Code</label>
+                                               <input type="text" class="form-control" name="micr" id="micr" style="font-size: 18px" placeholder="Enter MICR code">
+                                           </div>
+                                       </div>
+                                </div>
+                                <div class="form-group">
+                                   <div class="row">
+                                           <div class="column">
+                                               <label for="bname">Branch Name</label>
+                                               <input type="text" class="form-control" id="bname" name="branch" style="font-size: 18px" placeholder="Enter Branch name">
+                                           </div>
+                                           <div class="column">
+                                               <label for="bpin">Branch PIN</label>
+                                               <input type="text" class="form-control" id="bpin" name="bpin" style="font-size: 18px" placeholder="Enter Branch Pincode">
+                                           </div>
+                                           <div class="column">
+                                               <label for="bcity">Branch City</label>
+                                               <input type="text" class="form-control" id="bcity" name="bcity" style="font-size: 18px" placeholder="Enter Branch city">
+                                           </div>
+										   <div class="column">
+                                               <label for="bstate">Branch State</label>
+                                               <input type="text" class="form-control" id="bstate" name="bstate" style="font-size: 18px" placeholder="Enter Branch state">
+                                           </div>
+                                       </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="badd">Branch Address</label>
+                                    <textarea class="form-control" rows="4" cols="50" id="badd" name="badd" style="font-size: 18px" placeholder="Enter Branch address..."></textarea>
+                                </div>
+                                <div class="form-group">
+                                   <div class="row">
+                                           <div class="column">
+                                               <label for="actype">Account Type</label>
+                                               <select id="actype" name="actype">
+													<option value="">Select your Account type</option>
+													<option value="Current">Current</option>
+													<option value="Savings">Savings</option>
+												</select>
+                                           </div>
+                                           <div class="column">
+                                               <label for="acno">Account No</label>
+                                               <input type="text" class="form-control" id="acno" name="acno" style="font-size: 18px" placeholder="Enter your A/C No">
+                                           </div>
+                                       </div>
+                                </div>
+                                <div class="wizard-buttons">
+                                    <button type="button" class="btn btn-previous"  style="font-size: 16px;font-family: Trebuchet MS;">Previous</button>
+                                    <button type="button" class="btn btn-next"  style="font-size: 16px;font-family: Trebuchet MS;">Next</button>
+                                </div>
+                            </fieldset>
+                           
+                            <fieldset>
+                                <div class="jumbotron text-center">
+                                    <h3><b style="font-family: Trebuchet MS;color: limegreen">Please confirm your details that you have entered before clicking on submit button.<br>
+                                        Click on submit to save your data which cannot be changed further.</b></h3>
+                                </div>
+                                <div class="wizard-buttons">
+                                    <button type="button" class="btn btn-previous"  style="font-size: 16px;font-family: Trebuchet MS;">Previous</button>
+                                    <button type="submit" name="submit" class="btn btn-primary btn-submit" style="font-size: 16px;font-family: Trebuchet MS;">Submit</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+    
+                    <script src="js/jquery.min.js"></script>
+                    <script src="js/popper.min.js"></script>
+                    <script src="js/bootstrap.min.js"></script>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+        </div>
+        
+        <div class ="col-sm-5">
+            <input type="button" class="tablink" onclick="openPage('personal', this, 'darkorange')" id="defaultOpen" value="Personal Loan"/>
+            <input type="button" class="tablink" onclick="openPage('car', this, 'darkcyan')" value="Car Loan"/>
+            <input type="button" class="tablink" onclick="openPage('home', this, 'firebrick')" value="Home Loan"/>
+            <input type="button" class="tablink" onclick="openPage('edu', this, 'darkslateblue')" value="Education Loan"/>
+            <input type="button" class="tablink" onclick="openPage('other', this, 'darkgoldenrod')" value="Others"/>
+
+            <div id="personal" class="tabcontent">
+                <img src="images/personal.png"><br><br>
+                <h3><b>Personal Loan:</b></h3>
+              <p style="font-size: 18px">When expenses arise, like buying your first smartphone, your dream vehicle, your child's marriage, furnishing your home, 
+                  higher education for your children or a family holiday, simply knock our doors and let us help you turn your dreams into reality.
+                  With FasteLoan's range of Personal loans, meet all sorts of financial needs without worrying about keeping any collateral or property.
+                  Our range of personal loans are simple and flexible, designed with your changing needs in mind. Follow a few simple steps to help our team
+                  understand your requirements.</p><br>
+                <p style="font-size: 14px"> You can now get instant eApproval for your Personal Loans.</p>
+            </div>
+
+            <div id="car" class="tabcontent">
+                <img src="images/carloan.jpg"><br><br>
+                <h3><b>Car Loan:</b></h3>
+              <p style="font-size: 18px">An car loan is basically a loan that you take out in order to purchase a
+					vehicle. With An car loan, you are not paying on the depreciation of the
+					vehicle like you do with a lease. You are paying on the vehicle purchase
+					price plus interest.</p> 
+            </div>
+
+            <div id="home" class="tabcontent">
+                <img src="images/home.jpg"><br><br>
+                <h3><b>Home Loan:</b></h3>
+              <p style="font-size: 18px">A sum of money borrowed from a financial institution or bank to purchase
+					a house. Home loans consist of an adjustable or fixed interest rate and
+					payment terms</p>
+            </div>
+
+            <div id="edu" class="tabcontent">
+                <img src="images/edu.jpg"><br><br>
+                <h3><b>Education Loan:</b></h3>
+              <p style="font-size: 18px">Education loan is a special kind of loan granted by banks under which
+								some amount of money is granted to students at special rates. With the
+								help of education loan, the students can achieve higher and costly
+								studies at cheaper rates.</p>
+            </div>
+
+            <div id="other" class="tabcontent">
+              <p style="font-size: 18px"><b>Health Loan:</b> A health loan is a credit product especially designed to help pay the
+						costs of health-related expenses that are beyond the immediate financial
+						capacity of MFI clients. ... Loans for health are by definition not used
+						for income-generating purposes and, as such, entail certain risks for the
+						MFI.</p><br>
+				<p style="font-size: 18px"><b>Laptop loan:</b>
+						Are you a college student or from the corporate lot or an entrepreneur?
+						Technology is an integral part of all our lives and the need of the hour
+						is to be in constant touch with this dynamic world of technology. Having
+						the laptop of your choice can make life so much simpler and easier and
+						Home Credit's laptop loans offer you an easy way to do just that, giving
+						you the edge to stay ahead of the times.</p><br>
+				<p style="font-size: 18px"><b>Home Aplliance:</b>
+						Home Credits realises your need to progress in life and your desire for
+						better things. A Home Appliance loan from Home Credit aims to give you a
+						better lifestyle by letting you invest smartly with the help of options
+						like customised installments and easy repayment options. Just look for
+						the Home Credit representative at leading stores in your city and choose
+						a loan with an easy repayment schedule that suits your monthly household
+						budget.</p>
+            </div>
+            <script>
+                function openPage(pageName,elmnt,color) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablink");
+                    for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].style.backgroundColor = "";
+                    }
+                    document.getElementById(pageName).style.display = "block";
+                    elmnt.style.backgroundColor = color;
+
+                }
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+            </script>
+        </div>
+    </div>
+    </div>
+  
+</body>
+</html>
+
